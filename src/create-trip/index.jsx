@@ -262,20 +262,27 @@ function CreateTrip() {
             Generate My Trip Plan
           </Button>
 
-          <Dialog open={openDialog}>
-            <DialogContent>
-              <DialogHeader>
-                <DialogDescription>
-                  <img className="w-24 mx-auto" src="/logo.svg" alt="Logo" />
-                  <h2 className="font-bold text-lg mt-7">Sign in with Google</h2>
-                  <p>Sign up with Google Authentication</p>
-                  <Button className="w-full mt-5" disabled={loading} onClick={Login}>
-                    <FcGoogle className="mr-2" />Sign in with Google
-                  </Button>
-                </DialogDescription>
-              </DialogHeader>
-            </DialogContent>
-          </Dialog>
+          <Dialog open={openDialog} onOpenChange={setOpenDialog} >
+                 <DialogContent className="justify-center mt-auto sm:mx-auto">
+                   <DialogHeader>
+                     <DialogTitle className="text-center">
+                       <img src="/logo.svg" alt="Logo" className="h-12 mx-auto mb-4" />
+                       Welcome to VoyageAI
+                     </DialogTitle>
+                     <DialogDescription className="text-center space-y-4">
+                       <p className="text-gray-600">Sign in with your Google account to start planning your next adventure</p>
+                       <Button 
+                         className="w-full flex items-center justify-center gap-2" 
+                         disabled={loading}
+                         onClick={() => login()}
+                       >
+                         <FcGoogle className="h-5 w-5" />
+                         {loading ? 'Signing in...' : 'Sign in with Google'}
+                       </Button>
+                     </DialogDescription>
+                   </DialogHeader>
+                 </DialogContent>
+               </Dialog>
         </div>
       </div>
     </>

@@ -187,8 +187,8 @@ function Header() {
       </div>
 
       {/* Sign In Dialog */}
-      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
-        <DialogContent className="sm:max-w-md mx-4 sm:mx-auto">
+      <Dialog open={openDialog} onOpenChange={setOpenDialog} >
+        <DialogContent className="justify-center mt-auto sm:mx-auto">
           <DialogHeader>
             <DialogTitle className="text-center">
               <img src="/logo.svg" alt="Logo" className="h-12 mx-auto mb-4" />
