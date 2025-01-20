@@ -17,7 +17,7 @@ function InformSection({trip}) {
           </div>
       
         </div>
-        <Button > <Share /></Button>
+        
       </div>
     
     </div>
