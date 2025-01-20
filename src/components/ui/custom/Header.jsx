@@ -67,7 +67,7 @@ function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo Section */}
           <a href="/" className="flex items-center space-x-2 sm:space-x-4">
-            <img className="h-8 w-auto sm:h-10" src="./logo.svg" alt="VoyageAI Logo" />
+            <img className="h-8 w-auto sm:h-10" src="/logo.svg" alt="VoyageAI Logo" />
             <span className="font-bold text-lg sm:text-xl text-gray-900">VoyageAI</span>
           </a>
 
@@ -191,7 +191,7 @@ function Header() {
         <DialogContent className="sm:max-w-md mx-4 sm:mx-auto">
           <DialogHeader>
             <DialogTitle className="text-center">
-              <img src="./logo.svg" alt="Logo" className="h-12 mx-auto mb-4" />
+              <img src="/logo.svg" alt="Logo" className="h-12 mx-auto mb-4" />
               Welcome to VoyageAI
             </DialogTitle>
             <DialogDescription className="text-center space-y-4">
