@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Laptop Base -->
+  <rect x="150" y="400" width="500" height="20" rx="2" fill="#95a5a6"/>
+  <path d="M100 400 L150 400 L650 400 L700 400 L400 450 L100 400" fill="#7f8c8d"/>
+  
+  <!-- Laptop Screen Frame -->
+  <rect x="150" y="100" width="500" height="300" rx="10" fill="#95a5a6"/>
+  <rect x="155" y="105" width="490" height="290" rx="8" fill="#34495e"/>
+  
+  <!-- Screen Content -->
+  <rect x="160" y="110" width="480" height="280" fill="#fff"/>
+  
+  <!-- Website Header -->
+  <rect x="160" y="110" width="480" height="50" fill="#f8f9fa"/>
+  <circle cx="190" cy="135" r="15" fill="#3498db"/>
+  <text x="215" y="140" font-family="Arial" font-size="14" fill="#2c3e50">VoyageAI</text>
+  
+  <!-- Navigation Buttons -->
+  <rect x="500" y="125" width="80" height="20" rx="10" fill="#ecf0f1"/>
+  <text x="510" y="138" font-family="Arial" font-size="10" fill="#2c3e50">Create Trip</text>
+  
+  <rect x="590" y="125" width="70" height="20" rx="10" fill="#ecf0f1"/>
+  <text x="600" y="138" font-family="Arial" font-size="10" fill="#2c3e50">My Trips</text>
+  
+  <!-- Main Content Area -->
+  <rect x="160" y="160" width="480" height="120" fill="#e74c3c"/>
+  <text x="180" y="200" font-family="Arial" font-size="24" fill="#fff">Switzerland</text>
+  
+  <!-- Hotel Cards -->
+  <rect x="170" y="290" width="140" height="90" rx="5" fill="#fff"/>
+  <rect x="330" y="290" width="140" height="90" rx="5" fill="#fff"/>
+  <rect x="490" y="290" width="140" height="90" rx="5" fill="#fff"/>
+  
+  <!-- Card Shadows -->
+  <rect x="170" y="290" width="140" height="90" rx="5" fill="#000" opacity="0.1"/>
+  <rect x="330" y="290" width="140" height="90" rx="5" fill="#000" opacity="0.1"/>
+  <rect x="490" y="290" width="140" height="90" rx="5" fill="#000" opacity="0.1"/>
+</svg>
