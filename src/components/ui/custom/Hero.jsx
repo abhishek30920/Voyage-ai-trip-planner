@@ -15,7 +15,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center px-8 lg:px-32 text-center space-y-8 mt-14 lg:mt-32">
         {/* Heading */}
-        <img className="size-52 drop-shadow-lg" src="../../../../public/logo.svg" alt="Logo" />
+        <img className="size-52 drop-shadow-lg" src="./logo.svg" alt="Logo" />
         <h1 className="font-extrabold text-[40px] lg:text-[60px] leading-tight text-[#1A202C] drop-shadow-sm">
           Turn your travel dreams into plans—
           <span className="text-blue-600 animate-text bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent">
