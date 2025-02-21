@@ -274,7 +274,7 @@ function CreateTrip() {
                        <Button 
                          className="w-full flex items-center justify-center gap-2" 
                          disabled={loading}
-                         onClick={() => login()}
+                         onClick={() => Login()}
                        >
                          <FcGoogle className="h-5 w-5" />
                          {loading ? 'Signing in...' : 'Sign in with Google'}
